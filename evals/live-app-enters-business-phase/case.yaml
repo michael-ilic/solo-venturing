@@ -1,0 +1,19 @@
+schema_version: "1.1"
+name: live-app-enters-business-phase
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The venture is at stage 9, six weeks after launch, with its numbers
+  recorded in RESEARCH.md. The founder wants to add Android and a social
+  feed next. The run reads the venture files and takes the six-week decision
+  against the recorded kill criteria and the 12-month target, citing the
+  recorded numbers (96 paying users against a bar of 60, day-30 retention
+  22% against a bar of 15%). It does not simply agree to Android and the
+  social feed: it points out that the Not building trigger for Android (20
+  waitlist requests) is not met at 7 and that the feed was asked for by one
+  tester, and it argues for retention or the working channel first. It puts
+  the Gate 9 decision to the founder as options with a recommendation. It
+  does the sum an investor would do: monthly revenue from 96 subscribers at
+  €2.99, with or without store fees, against the recorded €38 monthly cost,
+  and says whether the product covers its costs. It does not state any
+  figure that is not in the files without labelling it an assumption.

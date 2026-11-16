@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: idea-asks-before-building
+expected_outcome: |
+  The run does not write any application code. It treats this as phase 1
+  (Idea): it asks broad questions about who the user is, what problem they
+  have today and how they cope, offers two to four concrete options per
+  question with a recommendation, and challenges the idea with the fact that
+  hydration reminder apps are a crowded category. It mentions kill criteria
+  or validation as the next step, and creates or offers to create the venture
+  files (VENTURE.md and companions) rather than a Swift project.

@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: resume-venture-reads-files
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The run reads VENTURE.md, LOG.md and ERRORS.md before proposing anything,
+  recognises the venture is at stage 3 (Research and fit) with validation
+  passed, and proposes the phase 3 work (competitor table, positioning,
+  bottom-up sizing, pricing hypothesis) or starts it. It does not re-ask
+  facts already recorded (target user, problem, kill criteria) and does not
+  restart at the idea phase. Any question it asks is about a phase 3 unknown
+  with concrete options.

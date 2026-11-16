@@ -1,0 +1,17 @@
+schema_version: "1.1"
+name: override-is-recorded
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The venture is at stage 2 with a validation bar set and no evidence
+  collected. The founder has heard the case for validating first and has
+  decided to build a first version instead. The run reads the venture files,
+  states its concern briefly and once, and does not refuse, stall or keep
+  arguing. It records the decision in VENTURE.md under Founder overrides with
+  a date and its concern. It then commits to the founder's choice by
+  proposing the smallest build that tests the riskiest assumption (a narrow
+  core loop to put in front of studio members), not a full app, and keeps
+  the rest on the Not building list. Building early does not pass the gate:
+  the Stage line stays at 2 and no Gate 2 Go line is written. The build is
+  framed as the way to collect the validation evidence, and the response
+  sets what the studio showing must demonstrate before anyone sees it.

@@ -1,0 +1,21 @@
+{
+  "name": "solo-venturing",
+  "version": "1.0.0",
+  "description": "A business-angel co-founder for solo founders: takes any app from idea to a running business through ten gated phases, with go/pivot/kill decisions and venture files that survive across sessions.",
+  "author": {
+    "name": "michael-ilic"
+  },
+  "homepage": "https://github.com/michael-ilic/solo-venturing",
+  "repository": "https://github.com/michael-ilic/solo-venturing",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "startup",
+    "indie-hacker",
+    "validation",
+    "mvp",
+    "launch",
+    "product",
+    "business"
+  ]
+}

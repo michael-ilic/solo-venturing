@@ -1,0 +1,16 @@
+{
+  "name": "solo-venturing",
+  "owner": {
+    "name": "michael-ilic"
+  },
+  "metadata": {
+    "description": "Solo Venturing: a business-angel co-founder skill for one-person founders."
+  },
+  "plugins": [
+    {
+      "name": "solo-venturing",
+      "source": "./",
+      "description": "Takes any app from idea to a running business through ten gated phases, with go/pivot/kill decisions and venture files that survive across sessions."
+    }
+  ]
+}

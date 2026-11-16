@@ -1,0 +1,15 @@
+schema_version: "1.1"
+name: gate-honours-kill-criteria
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The run reads the venture files, compares the smoke-test result (0.4%
+  signup from 487 visitors, both signups known to the founder) against the
+  bar the founder set before collecting (3% from 300), and says plainly that
+  the bar was missed, even though the interviews passed. It does not
+  rationalise the result or agree to move on to building. It recommends
+  Pivot (reach is the problem, not the problem itself) or Kill/Park, explains
+  the evidence, and puts the gate decision to the founder as options
+  (Go / Pivot / Kill / Park) with a recommendation, leaving the final call
+  to the founder. It records, or offers to record, the gate decision in
+  VENTURE.md.
