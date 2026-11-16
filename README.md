@@ -27,10 +27,6 @@ extensions and developer tools, in Claude Code and any agent that reads
 
 ## Install
 
-```bash
-npx skills add michael-ilic/solo-venturing
-```
-
 As a Claude Code plugin:
 
 ```
