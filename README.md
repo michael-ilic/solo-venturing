@@ -43,12 +43,9 @@ On Claude Code older than 2.1.275, add the marketplace first:
 /plugin install solo-venturing@solo-venturing
 ```
 
-By hand:
-
-```bash
-git clone https://github.com/michael-ilic/solo-venturing
-cp -R solo-venturing/skills/solo-venturing ~/.claude/skills/
-```
+By hand: download the source from the latest release, then copy the folder
+`skills/solo-venturing` into your agent's skills folder (`~/.claude/skills/`
+for Claude Code).
 
 </details>
 
