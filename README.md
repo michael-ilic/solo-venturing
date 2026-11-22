@@ -1,29 +1,32 @@
+<p align="center">
+  <img src="assets/social-preview.png" alt="Solo Venturing: a business-angel co-founder for one-person founders. Ten gated phases from idea to a running business. Go, pivot or kill." width="100%">
+</p>
+
 # Solo Venturing
 
-**From app idea to running business, with a co-founder that checks before it agrees.**
+**A personal shark tank for your app idea.**
 
 [![skills.sh](https://skills.sh/b/michael-ilic/solo-venturing)](https://skills.sh/michael-ilic/solo-venturing)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-green.svg)](https://agentskills.io)
 
-Tell an AI agent about your app idea and it starts writing code. It will
-also tell you the idea is great. Neither helps you find out whether anyone
-wants the thing.
+Pitch the idea. Get hard questions, a number to hit and a straight verdict.
+Solo Venturing is an agent skill that works as your personal business angel:
+it coaches you from the first sentence of an idea to a live app that earns
+money, and it holds you to proof at every step.
 
-Solo Venturing is an agent skill for solo founders and indie hackers that
-behaves like a business angel on your side of the table. It is a one-stop
-shop for the whole way: idea, validation, market research, architecture,
-branding, prototype, build, launch, metrics and the business behind it. One
-skill and one set of files, where you would otherwise stitch ten together.
+Most AI agents hear an app idea, call it great and start writing code. This
+one asks who has the problem, what you will accept as evidence, and what
+result would make you stop. If the answer is "I'm out", you hear it after a
+week of interviews, when it has cost you a few conversations and no code.
 
-What sets it apart is the checkpoint at the end of every phase. The evidence
-is laid next to a bar you set in advance, and you decide: **Go, Pivot, Kill
-or Park**. You find out early that an idea will not work, when it has cost
-you a few conversations and no code.
+Every phase ends in a verdict against a bar you set in advance: **Go, Pivot,
+Kill or Park**. Pass, and you move one step closer to launch with the proof
+in hand.
 
-It works for mobile apps, web apps and SaaS, desktop apps, browser
-extensions and developer tools, in Claude Code and any agent that reads
-`SKILL.md`.
+It is free, open source and takes no equity. It works for mobile apps, web
+apps and SaaS, desktop apps, browser extensions and developer tools, in
+Claude Code and any agent that reads `SKILL.md`.
 
 ## Install
 
@@ -52,16 +55,17 @@ for Claude Code).
 The scripts need `bash` and `python3`. Nothing else is installed and nothing
 is sent anywhere.
 
-## Start
+## Pitch your idea
 
-Open your agent in an empty folder and describe the idea:
+Open your agent in an empty folder and make the pitch:
 
 ```
 /solo-venturing A reminder app for hobby potters to log glaze recipes
 ```
 
-It sets up five small files and opens with the two questions that matter
-most: who has this problem, and what did they do the last time it hurt. In
+It sets up five small files and opens with the two questions an investor
+asks first: who has this problem, and what did they do the last time it
+hurt. In
 any later session, `/solo-venturing` on its own picks up where the venture
 stands.
 
@@ -74,24 +78,30 @@ against each gate and starts at the first one your evidence does not pass.
 
 ## What you get
 
-- **One skill for the whole way.** Ten phases from the first sentence of an
-  idea to a product that pays its way, including the parts developers tend
-  to skip: validation, a channel for the first 100 users, pricing, tax and
-  legal questions, the weekly numbers.
-- **A real checkpoint after every phase.** Not a summary and a "looks good".
-  A verdict against numbers you chose before you saw the results.
-- **Numbers you can trust.** Every market size, competitor and price carries
-  a source and a date, or is labelled an assumption. Nothing is made up to
-  keep the conversation moving.
-- **No more starting over.** The venture lives in five markdown files in
-  your project. A new session, or a different agent, reads them and
-  continues at the right step.
-- **You stay in charge.** It recommends; you decide. Overrule it and it
+- **An investor on your side who is hard on your idea.** It names the
+  weakest assumption in every phase and argues from evidence. Every market
+  size, competitor and price carries a source and a date, or is labelled an
+  assumption.
+- **A number to hit in every phase.** You set the bar before the test runs:
+  six of ten interviewees, 3% signup from 300 visitors, four of five testers
+  finishing the core task. The result is held against it, so a weak one
+  cannot be talked up afterwards.
+- **Tests before code.** The cheapest test that could fail comes first:
+  interviews, a landing page, a pre-sale. No product code is written before
+  validation passes.
+- **One step at a time, all the way to revenue.** Ten phases from idea to a
+  product that pays its way, including the parts developers tend to skip:
+  a channel for the first 100 users, pricing, tax and legal questions, the
+  weekly numbers. One skill, where you would otherwise stitch ten together.
+- **It remembers the whole venture.** Five markdown files in your project
+  hold the pitch, the evidence and every decision. A new session, or a
+  different agent, reads them and continues at the right step.
+- **You have the last word.** It recommends; you decide. Overrule it and it
   writes down its concern once, then builds what you chose.
 
-## A yes-machine or a co-founder
+## A yes-machine or a business angel
 
-| Ask an agent to build your idea | With Solo Venturing |
+| Pitch your idea to a plain agent | Pitch it to Solo Venturing |
 | --- | --- |
 | It writes code the moment it hears the idea | No product code before validation passes. The first session is a conversation about the user, the problem and what would end the idea. |
 | It agrees with you | It names the weakest assumption in every phase and holds results against the bar you set. |
@@ -108,9 +118,9 @@ that the category is crowded. You can run the comparison yourself; see
 
 ## Go, Pivot, Kill, Park
 
-Every phase ends at a gate. A gate is a short, fixed review: what was the
-bar, what did the evidence show, what is still unproven. Then one decision
-out of four.
+Every phase ends at a gate, the moment your idea goes back in front of the
+investor. A gate is a short, fixed review: what was the bar, what did the
+evidence show, what is still unproven. Then one decision out of four.
 
 | Decision | It means | Example | What happens next |
 | --- | --- | --- | --- |
@@ -229,6 +239,7 @@ skills/solo-venturing/
 ├── assets/              templates for the five venture files
 └── scripts/             new_venture.sh, check.py, context_budget.py
 evals/                   five cases with fixtures and graders
+assets/                  icon and social preview
 ```
 
 ## Contributing
